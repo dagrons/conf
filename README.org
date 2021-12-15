@@ -1,5 +1,5 @@
-* 使用方法
+* Stow
   
   #+BEGIN_SRC shell
-	stow . -t /etc
+	stow -t /etc etc
   #+END_SRC
