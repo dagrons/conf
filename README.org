@@ -1,7 +1,0 @@
-包含一些和项目无关的私人配置
-
-* Stow
-  
-  #+BEGIN_SRC shell
-	stow -t /etc etc
-  #+END_SRC
