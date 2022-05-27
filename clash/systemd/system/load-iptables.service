@@ -1,0 +1,11 @@
+[Unit]
+Description = Apply iptables rules
+After = clash.target
+
+[Service]
+User = root
+Type = oneshot
+ExecStart = /bin/sh -c 'iptables-restore < /etc/iptables.rules'
+
+[Install]
+WantedBy = multi-user.target
